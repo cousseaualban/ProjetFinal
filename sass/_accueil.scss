@@ -1,0 +1,23 @@
+@import 'variables';
+
+@mixin accueil{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    width: 60%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: $contentColor;
+
+    div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        p{
+            font-size: 1.5em;
+        }
+    }
+}

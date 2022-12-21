@@ -1,0 +1,61 @@
+@import './variables';
+
+@mixin header {
+
+    nav{
+        width: 80%;
+        margin: auto;
+        ul{
+            display: flex;
+            justify-content: space-between;
+            li{
+                list-style-type: none;
+            }
+        }
+    }
+
+    /* Style the navigation menu */
+    .topnav {
+        background-color: $primaryColor;
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+
+    /* Hide the links inside the navigation menu (except for logo/home) */
+    .topnav #myLinks {
+        width: 70%;
+        margin: auto;
+        @media only screen and (max-width: 768px) {
+        display: none;
+        }
+    }
+
+    /* Style navigation menu links */
+    .topnav a {
+        color: $colorNav;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 1.5em;
+        display: block;
+    }
+
+    /* Style the hamburger menu */
+    .topnav a.icon {
+        display: none;        
+        background: $primaryColor;
+
+        @media only screen and (max-width: 768px) {
+            display: block;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+    }
+
+    /* Style the active link (or home/logo) */
+    .active {
+        background-color: $primaryColor;
+        color: white;
+    }
+}

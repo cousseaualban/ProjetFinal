@@ -1,0 +1,19 @@
+@import 'variables';
+
+@mixin single{
+    width: 90%;
+    margin: auto;
+
+    article{
+        width: 70%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+
+        p{
+            width: 50%;
+            font-size: 1.5em;
+            color: $contentColor;
+        }
+    }
+}

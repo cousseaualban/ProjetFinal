@@ -1,0 +1,64 @@
+@import 'variables';
+
+@mixin footer {
+
+    background-color: $primaryColor;
+
+    .footerNav {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+
+        .logo{
+            padding-top: 5vh;
+            padding-bottom: 5vh;
+            width: 6%;
+            height: 20vh;
+        }
+
+        a {
+            color: $colorNav;
+            text-decoration: none;
+            font-size: 1.5em;
+        }
+
+        .menu-navigation-container{
+            width: 80%;
+            margin: auto;
+        }
+
+        #menu-navigation-1 {
+            width: 80%;
+            margin: auto;
+            display: flex;
+            justify-content: space-between;
+            list-style-type: none;
+        }
+    }
+
+    .policies {
+        width: 80%;
+        margin: auto;
+        a {
+            color: $colorNav;
+            text-decoration: none;
+        }
+
+        p {
+            color: $colorNav;
+        }
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 1.5em;
+
+            li {
+                list-style-type: none;
+            }
+        }
+
+    }
+}

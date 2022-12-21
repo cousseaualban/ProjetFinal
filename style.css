@@ -1,0 +1,214 @@
+@charset "UTF-8";
+/* Theme Name: Thème blog
+Description: Thème personnalisé pour le site du Blog
+Version: 0.1
+Author: Alban
+*/
+body {
+  margin: 0%;
+}
+body .image-class {
+  margin-top: 5vh;
+  height: 80vh;
+  background-size: cover;
+}
+body h1 {
+  text-align: center;
+  color: #D4042C;
+  font-size: 3em;
+}
+body header {
+  /* Style the navigation menu */
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  /* Style navigation menu links */
+  /* Style the hamburger menu */
+  /* Style the active link (or home/logo) */
+}
+body header img {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  width: 5%;
+  height: 20vh;
+  margin: auto;
+}
+body header nav {
+  width: 80%;
+  margin: auto;
+}
+body header nav ul {
+  display: flex;
+  justify-content: space-between;
+}
+body header nav ul li {
+  list-style-type: none;
+}
+body header .topnav {
+  background-color: #0C4C9C;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+body header .topnav #myLinks {
+  width: 70%;
+  margin: auto;
+}
+@media only screen and (max-width: 768px) {
+  body header .topnav #myLinks {
+    display: none;
+  }
+}
+body header .topnav a {
+  color: #D6D4E4;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.5em;
+  display: block;
+}
+body header .topnav a.icon {
+  display: none;
+  background: #0C4C9C;
+}
+@media only screen and (max-width: 768px) {
+  body header .topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+body header .active {
+  background-color: #0C4C9C;
+  color: white;
+}
+body .accueil {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  width: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #537DBA;
+}
+body .accueil div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+body .accueil div p {
+  font-size: 1.5em;
+}
+body .apropos {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+body .apropos img {
+  padding-bottom: 5vh;
+}
+body .apropos p {
+  color: #537DBA;
+  font-size: 1.5em;
+}
+body #blog {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  width: 80%;
+  margin: auto;
+}
+body #blog h1 {
+  padding-bottom: 5vh;
+}
+body #blog #allarticles {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body #blog #allarticles .article {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body #blog #allarticles .article h3 {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 3vh;
+}
+body #blog #allarticles .article p {
+  width: 70%;
+  color: #537DBA;
+  text-align: center;
+  font-size: 1.5em;
+}
+body #actu {
+  width: 90%;
+  margin: auto;
+}
+body #actu article {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+body #actu article p {
+  width: 50%;
+  font-size: 1.5em;
+  color: #537DBA;
+}
+body footer {
+  background-color: #0C4C9C;
+}
+body footer .footerNav {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+body footer .footerNav .logo {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  width: 6%;
+  height: 20vh;
+}
+body footer .footerNav a {
+  color: #D6D4E4;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+body footer .footerNav .menu-navigation-container {
+  width: 80%;
+  margin: auto;
+}
+body footer .footerNav #menu-navigation-1 {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+body footer .policies {
+  width: 80%;
+  margin: auto;
+}
+body footer .policies a {
+  color: #D6D4E4;
+  text-decoration: none;
+}
+body footer .policies p {
+  color: #D6D4E4;
+}
+body footer .policies ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5em;
+}
+body footer .policies ul li {
+  list-style-type: none;
+}/*# sourceMappingURL=style.css.map */

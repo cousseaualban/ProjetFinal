@@ -1,0 +1,65 @@
+/* Theme Name: Thème blog
+Description: Thème personnalisé pour le site du Blog
+Version: 0.1
+Author: Alban
+*/
+
+@import './sass/variables';
+@import './sass/header';
+@import './sass/footer';
+@import './sass/accueil';
+@import './sass/apropos';
+@import './sass/blog';
+@import './sass/single';
+@import './sass/classement';
+
+body {
+    margin: 0%;
+
+    .image-class{
+        margin-top: 5vh;
+        height: 80vh;
+        background-size: cover;
+    }
+
+    h1{
+        text-align: center;
+        color: $titleColor;
+        font-size: 3em;
+    }
+
+    header {
+        img{
+            padding-top: 5vh;
+            padding-bottom: 5vh;
+            width: 5%;
+            height: 20vh;
+            margin: auto;
+        }
+        @include header;
+    }
+
+    .accueil{
+        @include accueil;
+    }
+
+    .apropos{
+        @include apropos;
+    }
+
+    #blog{
+        @include blog;
+    }
+
+    #actu{
+        @include single;
+    }
+
+    .classement{
+        @include classement;
+    }
+
+    footer{
+        @include footer;
+    }
+}
