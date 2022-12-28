@@ -1,5 +1,23 @@
-@import 'variables';
+@import 'mixins';
 
-@mixin classement{
+@mixin classement {
+    display: flex;
+    justify-content: space-around;
+    background-color: $colorNav;
+    
+    .conferenceOuest {
+        @include positionClassement;
 
+        #propertiesClassement {
+            @include propertiesClassement;
+        }
+    }
+
+    .conferenceEst {
+        @include positionClassement;
+
+        #propertiesClassement {
+            @include propertiesClassement;
+        }
+    }
 }

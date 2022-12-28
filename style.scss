@@ -12,12 +12,12 @@ Author: Alban
 @import './sass/blog';
 @import './sass/single';
 @import './sass/classement';
+@import './sass/contact';
 
 body {
     margin: 0%;
 
     .image-class{
-        margin-top: 5vh;
         height: 80vh;
         background-size: cover;
     }
@@ -57,6 +57,10 @@ body {
 
     .classement{
         @include classement;
+    }
+
+    .contact{
+        @include contact;
     }
 
     footer{

@@ -30,5 +30,6 @@ function wpdocs_theme_setup()
     add_image_size('singleposthumbnail2', 500, 500, true); // L'image sera tronquée exactement à la dimension indiquée
     add_image_size('recentpost-thumb', 200, 200, false);
     add_image_size('couv', 1536, 1536, false);
+    add_image_size( 'icone', 64, 64, true );
 }
 //fin

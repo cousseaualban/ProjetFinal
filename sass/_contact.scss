@@ -1,0 +1,25 @@
+@import 'variables';
+
+@mixin contact{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    div{
+        width: 80%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 2vh;
+        padding-bottom: 2vh;
+
+        p{
+            text-align: center;
+            width: 40%;
+        }
+    }
+}

@@ -8,7 +8,6 @@ body {
   margin: 0%;
 }
 body .image-class {
-  margin-top: 5vh;
   height: 80vh;
   background-size: cover;
 }
@@ -105,6 +104,7 @@ body .apropos {
   width: 50%;
   margin: auto;
   text-align: center;
+  display: flex;
 }
 body .apropos img {
   padding-bottom: 5vh;
@@ -160,6 +160,82 @@ body #actu article p {
   width: 50%;
   font-size: 1.5em;
   color: #537DBA;
+}
+body .classement {
+  display: flex;
+  justify-content: space-around;
+  background-color: #D6D4E4;
+}
+body .classement .conferenceOuest {
+  width: 40%;
+  margin: auto;
+  padding-bottom: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.25em;
+  color: #537DBA;
+}
+body .classement .conferenceOuest h2 {
+  padding-left: 6vh;
+  font-size: 1.5em;
+}
+body .classement .conferenceOuest img {
+  padding-right: 3vh;
+}
+body .classement .conferenceOuest #propertiesClassement {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding-bottom: 4vh;
+}
+body .classement .conferenceEst {
+  width: 40%;
+  margin: auto;
+  padding-bottom: 5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.25em;
+  color: #537DBA;
+}
+body .classement .conferenceEst h2 {
+  padding-left: 6vh;
+  font-size: 1.5em;
+}
+body .classement .conferenceEst img {
+  padding-right: 3vh;
+}
+body .classement .conferenceEst #propertiesClassement {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding-bottom: 4vh;
+}
+body .contact {
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+body .contact div {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+}
+body .contact div p {
+  text-align: center;
+  width: 40%;
 }
 body footer {
   background-color: #0C4C9C;
