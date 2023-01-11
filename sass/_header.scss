@@ -1,6 +1,7 @@
 @import './variables';
 
 @mixin header {
+    padding-bottom: 5vh;
 
     nav{
         width: 80%;
@@ -26,9 +27,22 @@
     .topnav #myLinks {
         width: 70%;
         margin: auto;
+
+        //Responsive mobile
         @media only screen and (max-width: 768px) {
         display: none;
         }
+
+        //Responsive tablette
+        @media (max-width: 992px){
+            width: 80%;
+            margin: auto;
+            a{
+                width: 90%;
+                margin: auto;
+            }
+        }
+        
     }
 
     /* Style navigation menu links */

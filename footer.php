@@ -14,7 +14,7 @@
         <ul>
             <p>Copyright 2022 NBA, All right reserved</p>
             <li><a href="">Mentions légales</a></li>
-            <li><a href="">Politique de confidentialité</a></li>
+            <li><a href="<?php echo get_permalink(3) ?>">Politique de confidentialité</a></li>
         </ul>
     </div>
 </footer>

@@ -35,6 +35,11 @@ body {
             width: 5%;
             height: 20vh;
             margin: auto;
+
+            //Responsive mobile 
+            @media (max-width: 768px){
+                width: 8%;
+            }
         }
         @include header;
     }
@@ -61,6 +66,20 @@ body {
 
     .contact{
         @include contact;
+    }
+
+    .confidentialite{
+        text-align: center;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+
+        h2{
+            color: $titleColor;
+        }
+
+        p{
+            color: $contentColor;
+        }
     }
 
     footer{

@@ -1,6 +1,6 @@
 @import 'variables';
 
-@mixin contact{
+@mixin contact {
     width: 60%;
     margin: auto;
     display: flex;
@@ -8,7 +8,13 @@
     justify-content: space-between;
     align-items: center;
 
-    div{
+    //Responsive tablette
+    @media (max-width: 992px) {
+        width: 90%;
+        margin: auto;
+    }
+
+    div {
         width: 80%;
         margin: auto;
         display: flex;
@@ -17,9 +23,16 @@
         padding-top: 2vh;
         padding-bottom: 2vh;
 
-        p{
+                   //Responsive mobile 
+                   @media (max-width: 768px){
+                    display: flex;
+                    flex-direction: column;
+                   }
+
+        p {
             text-align: center;
             width: 40%;
+            color: $contentColor;
         }
     }
 }

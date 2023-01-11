@@ -1,6 +1,6 @@
 @import 'variables';
 
-@mixin accueil{
+@mixin accueil {
     padding-top: 5vh;
     padding-bottom: 5vh;
     width: 60%;
@@ -10,14 +10,45 @@
     align-items: center;
     color: $contentColor;
 
-    div{
+    //Responsive mobile 
+    @media (max-width: 768px) {
+        display: flex;
+        flex-direction: column;
+    }
+
+    div {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
 
-        p{
+        p {
             font-size: 1.5em;
         }
+    }
+
+    .wp-block-button {
+
+        //Responsive mobile 
+        @media (max-width: 768px) {
+            padding-top: 2vh;
+            padding-bottom: 2vh;
+            display: flex;
+            align-items: center;
+        }
+    }
+
+    //Responsive tablette
+    @media (max-width: 992px) {
+
+        div {
+            width: 90%;
+            margin: auto;
+
+            p {
+                font-size: 1em;
+            }
+        }
+
     }
 }

@@ -1,10 +1,16 @@
 @import 'mixins';
 
 @mixin classement {
+    background-color: $colorNav;
     display: flex;
     justify-content: space-around;
-    background-color: $colorNav;
-    
+
+               //Responsive mobile 
+               @media (max-width: 768px){
+                display: flex;
+                flex-direction: column;
+               }
+
     .conferenceOuest {
         @include positionClassement;
 
@@ -14,7 +20,13 @@
     }
 
     .conferenceEst {
+        padding-top: 15vh;
         @include positionClassement;
+
+        //Responsive tablette
+        @media (max-width: 992px) {
+            padding-top: 8vh;
+        }
 
         #propertiesClassement {
             @include propertiesClassement;

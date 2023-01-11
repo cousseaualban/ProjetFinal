@@ -1,6 +1,6 @@
 @import 'variables';
 
-@mixin apropos{
+@mixin apropos {
     padding-top: 5vh;
     padding-bottom: 5vh;
     width: 50%;
@@ -8,12 +8,17 @@
     text-align: center;
     display: flex;
 
-    img{
+    img {
         padding-bottom: 5vh
     }
 
-    p{
+    p {
         color: $contentColor;
-        font-size: 1.5em
+        font-size: 1.5em;
+
+        //Responsive mobile 
+        @media (max-width: 768px) {
+            font-size: 1em;
+        }
     }
 }

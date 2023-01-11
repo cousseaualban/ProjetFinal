@@ -7,6 +7,12 @@
     flex-direction: row-reverse;
     justify-content: space-between;
     padding-bottom: 4vh;
+
+               //Responsive mobile 
+               @media (max-width: 768px){
+                width: 70%;
+               }
+
 }
 
 @mixin positionClassement {
