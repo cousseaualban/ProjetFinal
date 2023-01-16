@@ -13,7 +13,7 @@
     <div class="policies">
         <ul>
             <p>Copyright 2022 NBA, All right reserved</p>
-            <li><a href="">Mentions légales</a></li>
+            <li><a href="<?php echo get_permalink(16) ?>">Mentions légales</a></li>
             <li><a href="<?php echo get_permalink(3) ?>">Politique de confidentialité</a></li>
         </ul>
     </div>

@@ -8,7 +8,7 @@ body {
   margin: 0%;
 }
 body .image-class {
-  height: 80vh;
+  height: 50vh;
   background-size: cover;
 }
 body h1 {
@@ -111,6 +111,11 @@ body .accueil {
     flex-direction: column;
   }
 }
+@media (max-width: 992px) {
+  body .accueil {
+    width: 90%;
+  }
+}
 body .accueil div {
   display: flex;
   flex-direction: column;
@@ -129,9 +134,14 @@ body .accueil div p {
   }
 }
 @media (max-width: 992px) {
+  body .accueil .wp-block-button {
+    padding-top: 2vh;
+    display: flex;
+  }
+}
+@media (max-width: 992px) {
   body .accueil div {
     width: 90%;
-    margin: auto;
   }
   body .accueil div p {
     font-size: 1em;
@@ -184,11 +194,22 @@ body #blog #allarticles .article {
   flex-direction: column;
   align-items: center;
 }
+@media (max-width: 992px) {
+  body #blog #allarticles .article {
+    width: 30%;
+    margin: auto;
+  }
+}
 body #blog #allarticles .article h3 {
   width: 60%;
   margin: auto;
   text-align: center;
   padding-bottom: 3vh;
+}
+@media (max-width: 992px) {
+  body #blog #allarticles .article h3 {
+    width: 100%;
+  }
 }
 body #blog #allarticles .article p {
   width: 70%;
@@ -198,7 +219,7 @@ body #blog #allarticles .article p {
 }
 @media (max-width: 992px) {
   body #blog #allarticles .article p {
-    width: 80%;
+    width: 100%;
     font-size: 1em;
   }
 }
@@ -299,7 +320,7 @@ body .classement .conferenceEst img {
 }
 @media (max-width: 992px) {
   body .classement .conferenceEst {
-    padding-top: 8vh;
+    padding-top: 12vh;
   }
 }
 body .classement .conferenceEst #propertiesClassement {
@@ -360,6 +381,26 @@ body .confidentialite h2 {
 body .confidentialite p {
   color: #537DBA;
 }
+body .mentionsLegales {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+body .mentionsLegales h1 {
+  color: #D4042C;
+}
+body .mentionsLegales strong {
+  color: #D4042C;
+  font-size: 2em;
+}
+body .mentionsLegales p {
+  width: 60%;
+  margin: auto;
+  color: #537DBA;
+  padding-bottom: 3vh;
+}
 body footer {
   background-color: #0C4C9C;
 }
@@ -372,7 +413,7 @@ body footer .footerNav {
 body footer .footerNav .logo {
   padding-top: 5vh;
   padding-bottom: 5vh;
-  width: 6%;
+  width: 8%;
   height: 20vh;
 }
 body footer .footerNav a {
@@ -399,6 +440,11 @@ body footer .footerNav #menu-navigation-1 {
 @media (max-width: 992px) {
   body footer .footerNav #menu-navigation-1 {
     width: 90%;
+  }
+}
+@media (max-width: 768px) {
+  body footer .footerNav #menu-navigation-1 {
+    width: 100%;
   }
 }
 body footer .policies {

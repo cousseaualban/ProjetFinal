@@ -6,6 +6,10 @@
     width: 80%;
     margin: auto;
 
+        //Responsive tablette 
+            @media (max-width: 992px){
+            }
+
     h1 {
         padding-bottom: 5vh;
     }
@@ -26,12 +30,24 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            
+        //Responsive tablette 
+        @media (max-width: 992px){
+            width: 30%;
+            margin: auto;
+        }
 
             h3 {
                 width: 60%;
                 margin: auto;
                 text-align: center;
                 padding-bottom: 3vh;
+
+                
+                //Responsive tablette 
+                    @media (max-width: 992px){
+                        width: 100%;
+                }
             }
 
             p {
@@ -42,7 +58,7 @@
 
                 //Responsive tablette
                 @media (max-width: 992px) {
-                    width: 80%;
+                    width: 100%;
                     font-size: 1em;
                 }
             }

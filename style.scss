@@ -18,7 +18,7 @@ body {
     margin: 0%;
 
     .image-class{
-        height: 80vh;
+        height: 50vh;
         background-size: cover;
     }
 
@@ -79,6 +79,31 @@ body {
 
         p{
             color: $contentColor;
+        }
+    }
+
+    .mentionsLegales{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+
+
+        h1{
+            color: $titleColor;
+        }
+
+        strong{
+            color: $titleColor;
+            font-size: 2em;
+        }
+
+        p{
+            width: 60%;
+            margin: auto;
+            color: $contentColor;
+            padding-bottom: 3vh;
         }
     }
 
