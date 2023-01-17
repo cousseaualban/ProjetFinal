@@ -460,6 +460,10 @@ body .mentionsLegales p {
   color: #537DBA;
   padding-bottom: 3vh;
 }
+body .error {
+  text-align: center;
+  padding-bottom: 11vh;
+}
 body footer {
   background-color: #0C4C9C;
   font-family: "Lucida Sans", Geneva, sans-serif;
