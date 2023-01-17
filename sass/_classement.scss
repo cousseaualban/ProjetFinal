@@ -4,12 +4,13 @@
     background-color: $colorNav;
     display: flex;
     justify-content: space-around;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
-               //Responsive mobile 
-               @media (max-width: 768px){
-                display: flex;
-                flex-direction: column;
-               }
+    //Responsive mobile 
+    @media (max-width: 768px) {
+        display: flex;
+        flex-direction: column;
+    }
 
     .conferenceOuest {
         @include positionClassement;
@@ -20,7 +21,7 @@
     }
 
     .conferenceEst {
-        padding-top: 15vh;
+        padding-top: 16vh;
         @include positionClassement;
 
         //Responsive tablette

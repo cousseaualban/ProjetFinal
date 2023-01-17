@@ -7,9 +7,16 @@
     margin: auto;
     text-align: center;
     display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    //Responsive téléphone
+    @media (max-width: 425px) {
+        width: 80%;
+    }
 
     img {
-        padding-bottom: 5vh
+        padding-bottom: 5vh;
+
     }
 
     p {
@@ -20,5 +27,7 @@
         @media (max-width: 768px) {
             font-size: 1em;
         }
+
+
     }
 }

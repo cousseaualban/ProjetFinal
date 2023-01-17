@@ -10,11 +10,11 @@
         display: flex;
         justify-content: space-between;
 
-                   //Responsive mobile 
-                   @media (max-width: 768px){
-                    display: flex;
-                    flex-direction: column;
-                   }
+        //Responsive mobile 
+        @media (max-width: 768px) {
+            display: flex;
+            flex-direction: column;
+        }
 
         //Responsive tablette
         @media (max-width: 992px) {
@@ -34,6 +34,11 @@
             @media (max-width: 992px) {
                 font-size: 1em;
                 text-align: center;
+            }
+
+            //Responsive téléphone
+            @media (max-width: 425px) {
+                padding-bottom: 5vh;
             }
         }
     }

@@ -13,6 +13,14 @@
           "@media (max-width: 768px)"
         ],
         "description": "med768"
+      },
+
+      "med425": {
+        "prefix": "med425",
+        "body": [
+          "@media (max-width: 425px)"
+        ],
+        "description": "med420"
       }
     
     }

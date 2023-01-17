@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/png" href="https://albancousseau-arinfo.fr/projetfinal/wp-content/uploads/2023/01/nba.png" sizes="64x64">
     <title><?php the_title(); ?> </title>
     <?php wp_head(); ?>
 </head>

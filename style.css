@@ -15,9 +15,16 @@ body h1 {
   text-align: center;
   color: #D4042C;
   font-size: 3em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+@media (max-width: 425px) {
+  body h1 {
+    font-size: 1.75em;
+  }
 }
 body header {
   padding-bottom: 5vh;
+  font-family: "Lucida Sans", Geneva, sans-serif;
   /* Style the navigation menu */
   /* Hide the links inside the navigation menu (except for logo/home) */
   /* Style navigation menu links */
@@ -27,14 +34,8 @@ body header {
 body header img {
   padding-top: 5vh;
   padding-bottom: 5vh;
-  width: 5%;
-  height: 20vh;
+  width: 80px;
   margin: auto;
-}
-@media (max-width: 768px) {
-  body header img {
-    width: 8%;
-  }
 }
 body header nav {
   width: 80%;
@@ -46,6 +47,14 @@ body header nav ul {
 }
 body header nav ul li {
   list-style-type: none;
+}
+@media (max-width: 768px) {
+  body header nav ul {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 body header .topnav {
   background-color: #0C4C9C;
@@ -104,6 +113,7 @@ body .accueil {
   justify-content: space-between;
   align-items: center;
   color: #537DBA;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 @media (max-width: 768px) {
   body .accueil {
@@ -154,6 +164,12 @@ body .apropos {
   margin: auto;
   text-align: center;
   display: flex;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+@media (max-width: 425px) {
+  body .apropos {
+    width: 80%;
+  }
 }
 body .apropos img {
   padding-bottom: 5vh;
@@ -172,6 +188,7 @@ body #blog {
   padding-bottom: 5vh;
   width: 80%;
   margin: auto;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 body #blog h1 {
   padding-bottom: 5vh;
@@ -198,6 +215,11 @@ body #blog #allarticles .article {
   body #blog #allarticles .article {
     width: 30%;
     margin: auto;
+  }
+}
+@media (max-width: 425px) {
+  body #blog #allarticles .article {
+    width: 90%;
   }
 }
 body #blog #allarticles .article h3 {
@@ -259,10 +281,16 @@ body #actu article p {
     text-align: center;
   }
 }
+@media (max-width: 425px) {
+  body #actu article p {
+    padding-bottom: 5vh;
+  }
+}
 body .classement {
   background-color: #D6D4E4;
   display: flex;
   justify-content: space-around;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 @media (max-width: 768px) {
   body .classement {
@@ -279,6 +307,11 @@ body .classement .conferenceOuest {
   align-items: center;
   font-size: 1.25em;
   color: #537DBA;
+}
+@media (max-width: 425px) {
+  body .classement .conferenceOuest {
+    width: 60%;
+  }
 }
 body .classement .conferenceOuest h2 {
   padding-left: 6vh;
@@ -300,8 +333,13 @@ body .classement .conferenceOuest #propertiesClassement {
     width: 70%;
   }
 }
+@media (max-width: 425px) {
+  body .classement .conferenceOuest #propertiesClassement {
+    width: 90%;
+  }
+}
 body .classement .conferenceEst {
-  padding-top: 15vh;
+  padding-top: 16vh;
   width: 40%;
   margin: auto;
   padding-bottom: 5vh;
@@ -310,6 +348,11 @@ body .classement .conferenceEst {
   align-items: center;
   font-size: 1.25em;
   color: #537DBA;
+}
+@media (max-width: 425px) {
+  body .classement .conferenceEst {
+    width: 60%;
+  }
 }
 body .classement .conferenceEst h2 {
   padding-left: 6vh;
@@ -336,6 +379,11 @@ body .classement .conferenceEst #propertiesClassement {
     width: 70%;
   }
 }
+@media (max-width: 425px) {
+  body .classement .conferenceEst #propertiesClassement {
+    width: 90%;
+  }
+}
 body .contact {
   width: 60%;
   margin: auto;
@@ -343,6 +391,7 @@ body .contact {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 @media (max-width: 992px) {
   body .contact {
@@ -365,28 +414,38 @@ body .contact div {
     flex-direction: column;
   }
 }
+@media (max-width: 425px) {
+  body .contact div {
+    width: 100%;
+  }
+}
 body .contact div p {
   text-align: center;
   width: 40%;
   color: #537DBA;
 }
 body .confidentialite {
-  text-align: center;
-  padding-top: 5vh;
+  width: 70%;
+  margin: auto;
   padding-bottom: 5vh;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 body .confidentialite h2 {
   color: #D4042C;
 }
 body .confidentialite p {
+  width: 40%;
   color: #537DBA;
 }
 body .mentionsLegales {
-  width: 80%;
-  margin: auto;
-  text-align: center;
   padding-top: 5vh;
   padding-bottom: 5vh;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
 }
 body .mentionsLegales h1 {
   color: #D4042C;
@@ -403,6 +462,7 @@ body .mentionsLegales p {
 }
 body footer {
   background-color: #0C4C9C;
+  font-family: "Lucida Sans", Geneva, sans-serif;
 }
 body footer .footerNav {
   width: 80%;
@@ -413,8 +473,7 @@ body footer .footerNav {
 body footer .footerNav .logo {
   padding-top: 5vh;
   padding-bottom: 5vh;
-  width: 8%;
-  height: 20vh;
+  width: 80px;
 }
 body footer .footerNav a {
   color: #D6D4E4;
@@ -444,12 +503,29 @@ body footer .footerNav #menu-navigation-1 {
 }
 @media (max-width: 768px) {
   body footer .footerNav #menu-navigation-1 {
-    width: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (max-width: 425px) {
+  body footer .footerNav #menu-navigation-1 {
+    width: 80%;
+  }
+}
+@media (max-width: 768px) {
+  body footer .footerNav #menu-navigation-1 li {
+    margin-top: 3vh;
   }
 }
 body footer .policies {
   width: 80%;
   margin: auto;
+}
+@media (max-width: 768px) {
+  body footer .policies {
+    width: 90%;
+  }
 }
 body footer .policies a {
   color: #D6D4E4;
@@ -464,8 +540,20 @@ body footer .policies ul {
   align-items: center;
   font-size: 1.5em;
 }
+@media (max-width: 768px) {
+  body footer .policies ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 body footer .policies ul li {
   list-style-type: none;
+}
+@media (max-width: 768px) {
+  body footer .policies ul li {
+    margin-top: 3vh;
+  }
 }
 @media (max-width: 992px) {
   body footer .policies ul {

@@ -24,8 +24,8 @@ add_filter('show_admin_bar', '__return_false');
 add_action('after_setup_theme', 'wpdocs_theme_setup');
 function wpdocs_theme_setup()
 {
-    add_image_size('home', 1280, 744, false);
-    add_image_size('blogpage_thumb', 300, 300, false);
+    add_image_size('home', 1280, 744, true);
+    add_image_size('blogpage_thumb', 300, 300, true);
     add_image_size('singleposthumbnail', 500, 500, false);
     add_image_size('singleposthumbnail2', 500, 500, true); // L'image sera tronquée exactement à la dimension indiquée
     add_image_size('recentpost-thumb', 200, 200, false);

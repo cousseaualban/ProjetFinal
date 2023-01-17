@@ -9,6 +9,7 @@
     justify-content: space-between;
     align-items: center;
     color: $contentColor;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
     //Responsive mobile 
     @media (max-width: 768px) {
@@ -20,6 +21,7 @@
         @media (max-width: 992px) {
         width: 90%;
     }
+
 
     div {
         display: flex;
